@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "test": "nightwatch --config nightwatch.conf.js",
+    "posttest": "node create-html-report.js"
+  },
+  "devDependencies": {
+    "cucumber": "^3.0.1",
+    "nightwatch": "^0.9.16",
+    "nightwatch-cucumber": "^8.0.8",
+    "selenium-download": "^2.0.10"
+  }
+}
