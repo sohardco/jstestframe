@@ -2,7 +2,7 @@
 require('nightwatch-cucumber')({
    cucumberArgs: [
      '--require', 'features/step_definitions',
-     '--format', 'json:reports/cucumber/cucumber_report.json', 'features']
+     '--format', 'json:reports/cucumber/cucumber-report.json', 'features']
 })
 const SCREENSHOT_PATH = "./screenshots/";
 const BINPATH = './node_modules/nightwatch/bin/';
