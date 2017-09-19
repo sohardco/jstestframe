@@ -8,6 +8,7 @@
     "uri": "features/yahoo-search.feature",
     "elements": [
       {
+        "description": "Before:",
         "id": "yahoo-search;searching-yahoo",
         "keyword": "Scenario",
         "line": 3,
@@ -16,42 +17,53 @@
         "type": "scenario",
         "steps": [
           {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "I open Yahoo`s search page",
+            "keyword": "Before",
+            "hidden": true,
             "match": {
-              "location": "features/step_definitions/yahoo.js:5"
+              "location": "features/step_definitions/yahoo.js:6"
             },
             "result": {
               "status": "passed",
-              "duration": 14990
+              "duration": 1
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I open Yahoo`s search page",
+            "match": {
+              "location": "features/step_definitions/yahoo.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18533
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 6,
+            "line": 8,
             "name": "the title is \"Yahoo\"",
             "match": {
-              "location": "features/step_definitions/yahoo.js:13"
+              "location": "features/step_definitions/yahoo.js:16"
             },
             "result": {
               "status": "passed",
-              "duration": 33
+              "duration": 77
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 7,
+            "line": 9,
             "name": "the Yahoo search form exists",
             "match": {
-              "location": "features/step_definitions/yahoo.js:17"
+              "location": "features/step_definitions/yahoo.js:20"
             },
             "result": {
               "status": "passed",
-              "duration": 114
+              "duration": 281
             }
           }
         ]
